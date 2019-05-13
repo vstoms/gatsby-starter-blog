@@ -58,7 +58,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `keep IT tidy`,
-        short_name: `keep IT tidt`,
+        short_name: `keep IT tidy`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
