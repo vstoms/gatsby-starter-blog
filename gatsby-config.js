@@ -5,7 +5,7 @@ module.exports = {
     description: `Just keep IT tidy`,
     siteUrl: `https://blogtest.stomsvik.com/`,
     social: {
-      twitter: `vstoms`,
+      twitter: `stoms`,
     },
   },
   plugins: [
