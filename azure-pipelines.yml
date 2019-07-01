@@ -13,7 +13,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install -g gatsby-cli
+    npm install --g gatsby-cli
   displayName: 'install gatsby'
 
 - script: |
@@ -25,7 +25,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    sourceFolder: 'gatsby-site/public'
+    sourceFolder: 'public'
     contents: '**' 
     targetFolder: $(Build.ArtifactStagingDirectory)
     cleanTargetFolder: true 
